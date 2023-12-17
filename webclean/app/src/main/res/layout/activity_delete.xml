@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Delete">
+
+    <Button
+        android:id="@+id/btnSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/del"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <EditText
+
+        android:id="@+id/SP"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="30dp"
+        android:autofillHints="@string/m_s_n_ph_m"
+        tools:ignore="LabelFor"
+        android:inputType="number" />
+
+    <ListView
+        android:id="@+id/lvMaSP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+
+
+</LinearLayout
+    >

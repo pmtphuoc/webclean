@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuaDM">
+
+
+    <Button
+        android:id="@+id/btnDM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nhap du lieu"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <EditText
+
+        android:id="@+id/ma"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="30dp"
+        android:autofillHints="Mã Danh Mục"
+        android:inputType="number"
+        tools:ignore="LabelFor"/>
+
+    <EditText
+
+        android:id="@+id/ten"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="Tên danh mục"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="30dp"
+        android:inputType="text"
+        tools:ignore="LabelFor"/>
+
+
+
+
+
+</LinearLayout>

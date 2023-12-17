@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">webcleand</string>
+
+    <string name="danh_sach_san_pham">danh sach san pham</string>
+    <string name="danh_sach_danh_muc">danh sach danh muc</string>
+    <string name="lay_chi_tiet_theo_ma_danh_muc">lay chi tiet theo ma danh muc</string>
+    <string name="lay_chi_tiet_theo_don_gia">lay chi tiet theo don gia</string>
+    <string name="luu_san_pham">luu san pham</string>
+    <string name="find_n_gi">Find đơn giá</string>
+
+    <string name="del">Del</string>
+    <string name="m_s_n_ph_m">Mã sản phẩm</string>
+
+    <string name="get">Get</string>
+</resources>

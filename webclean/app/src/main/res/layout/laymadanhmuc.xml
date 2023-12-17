@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnDM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <EditText
+
+        android:id="@+id/DM"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="30dp"
+        android:autofillHints="Mã danh muc"
+        android:inputType=""
+        tools:ignore="LabelFor"/>
+
+    <ListView
+        android:id="@+id/lvMaDM"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+
+
+</LinearLayout
+    >

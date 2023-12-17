@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnDanhSachSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moDanhSachSanPham"
+        android:text="@string/danh_sach_san_pham" />
+
+    <Button
+        android:id="@+id/btnDanhSachDanhMuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moDanhSachDanhMuc"
+        android:text="@string/danh_sach_danh_muc" />
+    <Button
+        android:id="@+id/btnDanhMucID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moDanhMuc"
+        android:text="@string/lay_chi_tiet_theo_ma_danh_muc" />
+    <Button
+        android:id="@+id/btnDonGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moDonGia"
+        android:text="@string/lay_chi_tiet_theo_don_gia" />
+    <Button
+        android:id="@+id/btnluu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moLuu"
+        android:text="@string/luu_san_pham" />
+    <Button
+        android:id="@+id/btnxoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moXoa"
+        android:text="xoa san pham" />
+    <Button
+        android:id="@+id/btnsuasp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moSuasp"
+        android:text="sua san pham" />
+    <Button
+        android:id="@+id/btnsuadm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moSuadm"
+        android:text="sua danh muc" />
+
+
+</LinearLayout>
